@@ -1,0 +1,122 @@
+.input,
+.select,
+.textarea {
+  max-width: 100%;
+  width: 100%;
+  padding: 14px 21px;
+  background: #fff;
+  color: #666;
+  border: 1px solid #000000;
+  margin: 0;
+  border-radius: 0;
+  font-size: 14px;
+  opacity: 0.2;
+  line-height: 10px;
+}
+
+.input-secondary {
+  background: transparent;
+  color: #fff;
+}
+
+.textarea {
+  resize: none;
+  padding: 22px 20px;
+  height: 200px;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+  outline: none;
+  color: #000;
+  border-color: #00e0d0;
+  opacity: 0.77;
+}
+
+.input-secondary:focus {
+  color: #fff;
+}
+
+.input:disabled,
+.select:disabled,
+.textarea:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  border-color: #e5e5e5;
+}
+/*
+ * Placeholder
+ */
+
+.input::-webkit-input-placeholder {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.input:-ms-input-placeholder {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.input::-ms-input-placeholder {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.input::placeholder {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.input-secondary::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.input-secondary:-ms-input-placeholder {
+  color: #fff;
+}
+
+.input-secondary::-ms-input-placeholder {
+  color: #fff;
+}
+
+.input-secondary::placeholder {
+  color: #fff;
+}
+
+.textarea::-webkit-input-placeholder {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.textarea:-ms-input-placeholder {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.textarea::-ms-input-placeholder {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.textarea::placeholder {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}

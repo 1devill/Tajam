@@ -1,0 +1,18 @@
+.nav {
+    margin: 0 -10px;
+}
+   
+.nav-item {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.33px;
+    padding: 0 10px;
+}
+   
+.nav-footer {
+    margin: 0 -15px;
+}
+
+.nav-footer .nav-item {
+    padding: 0 15px;
+}

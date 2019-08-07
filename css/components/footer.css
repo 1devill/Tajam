@@ -1,0 +1,97 @@
+.footer {
+    position: relative;
+    padding: 55px 0 70px;
+    min-height: 400px;
+}
+  
+.footer-header > .grid {
+    margin-left: -36px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 27px;
+}
+  
+.footer-header > .grid > * {
+    padding-left: 36px;
+}
+
+.footer .footer-title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.75px;
+}
+
+.footer-body > .grid {
+    margin-left: -36px;
+}
+
+.footer-body > .grid > * {
+    padding-left: 36px;
+}
+
+.footer-body .footer-middle .list {
+    padding: 0;
+}
+
+.footer-body .footer-middle .list .list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 27px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+
+.footer-body .footer-middle .icon {
+    margin-right: 16px;
+}
+  
+.footer .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-left: -10px;
+}
+.footer .form-left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 75%;
+            flex: 1 1 75%;
+    padding-left: 10px;
+}
+  
+.footer .form-right {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%;
+    padding-left: 10px;
+    height: 45px;
+}
+  
+.footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 60px;
+}
+  
+.footer .button .icon {
+    color: #000;
+    -webkit-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+  
+.footer .button:hover .icon {
+    color: #fff;
+}

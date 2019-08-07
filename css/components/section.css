@@ -1,0 +1,497 @@
+/********************************************* For every section ***********************************************************/
+.section {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+  margin: 0;
+}
+
+.section-background img{
+  width: 100%;
+  height: 100%;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#09052f), to(#311d5e));
+  background-image: -webkit-linear-gradient(left, #09052f 0%, #311d5e 100%);
+  background-image: -o-linear-gradient(left, #09052f 0%, #311d5e 100%);
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+  z-index: -1;
+  opacity: 0.85;
+}
+
+.section-foreground {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 0 0;
+}
+
+.section-line::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #00e0d0;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.line-secondary::after {
+  background-color: #413d4b;
+}
+
+.line-third::after {
+  background-color: #fff;
+}
+/*----------------------------- Section 1 Hero ----------------------------------------------------------------------------*/
+.section-hero {
+  min-height: 670px;
+  padding-bottom: 20px;
+}
+
+.section-hero .container, .section-hero .section-foreground {
+  min-height: 670px;
+}
+
+.section-hero .section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-hero .section-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-hero .section-top {
+  margin-top: 173px;
+  text-align: center;
+}
+
+.section-hero .section-top .section-title {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+
+.section-hero .section-middle {
+  text-align: center;
+}
+
+.section-hero .section-middle .section-description {
+  line-height: 24px;
+  letter-spacing: 0.7px;
+  margin: 30px 0 50px;
+}
+/*----------------------------------------------- Section 2 Story  -------------------------------------------------------*/
+.section-story {
+  padding: 70px 0;
+}
+
+.section-story .grid {
+  margin: 0 -50px;
+}
+
+.section-story .grid > * {
+  padding: 0 50px;
+}
+
+.section-story .section-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 300px;
+          flex: 1 0 300px;
+}
+
+.section-story .section-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60%;
+          flex: 1 1 60%;
+}
+
+.section-story .section-description {
+  margin: 30px 0;
+  opacity: 0.75;
+  color: #413d4b;
+  letter-spacing: 0.42px;
+}
+/*------------------------------------------------ Section 3 Video --------------------------------------------------------*/
+.section-video {
+  min-height: 550px;
+}
+
+.section-video .section-foreground {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 550px;
+}
+
+.section-video .section-image {
+  font-size: 110px;
+  padding-bottom: 34px;
+}
+
+.section-video .section-description {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+/*--------------------------------------------------- Section 4 Expertise -------------------------------------------------*/
+.section-expertise {
+  padding: 71px 0;
+}
+
+.section-expertise .section-top {
+  text-align: center;
+}
+
+.section-expertise .section-title {
+  color: #413d4b;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+}
+
+.section-expertise .section-description {
+  opacity: 0.75;
+  color: #2f2d35;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+}
+
+.section-expertise .grid {
+  overflow: hidden;
+}
+
+.section-expertise .grid-item {
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 50px 32px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.33%;
+          flex: 1 1 33.33%;
+  text-align: center;
+  margin-bottom: -1px;
+  margin-right: -1px;
+}
+
+.section-expertise .section-middle {
+  margin-top: 50px;
+}
+
+.section-expertise .section-subtitle {
+  margin-top: 35px;
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+
+.section-expertise .section-image {
+  font-size: 44px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00e0d0), to(#4aa3cc));
+  background-image: -webkit-linear-gradient(left, #00e0d0 0%, #4aa3cc 100%);
+  background-image: -o-linear-gradient(left, #00e0d0 0%, #4aa3cc 100%);
+  background-image: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-expertise .grid-item .section-description {
+  opacity: 0.75;
+  color: #333333;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.7px;
+  margin-bottom: 0;
+}
+/*------------------------------------------------- Section 5 Team --------------------------------------------------------*/
+.section-team {
+  padding: 55px 0 70px;
+  text-align: center;
+}
+
+.section-team .grid {
+  margin: 0 0 0 -10px;
+  padding: 50px 0 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-team .grid > * {
+  padding: 0 0 0 10px;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.section-team .section-title {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+}
+
+.section-team .section-description {
+  color: #f9f9f9;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.8;
+  letter-spacing: 1.05px;
+}
+
+.section-team .section-bottom .section-description {
+  margin-bottom: 26px;
+  margin-top: 20px;
+}
+
+/*----------------------------------------------------- Section 6 Work ----------------------------------------------------*/
+.section-work {
+  padding: 70px 0;
+}
+
+.section-work .section-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-work .section-title {
+  color: #413d4b;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+}
+
+.section-work .section-link {
+  color: #413d4b;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.section-work .section-link:hover {
+  color: #00e0d0;
+}
+
+.section-work .section-link::after {
+  content: url(../../images/right154.png);
+  width: 8px;
+  height: 13px;
+  margin-left: 7px;
+  opacity: 0.7;
+  vertical-align: middle;
+}
+
+.section-work .section-middle {
+  margin: 56px 0 70px;
+}
+
+.section-work .section-image {
+  background-color: hsl(24, 1%, 71%);
+  margin: 0;
+  background-clip: content-box;
+  -webkit-transition: 0.77s;
+  -o-transition: 0.77s;
+  transition: 0.77s;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-work .section-image img {
+  height: 100%;
+  -webkit-transition: 0.77s;
+  -o-transition: 0.77s;
+  transition: 0.77s;
+}
+
+.section-work .section-image.darken {
+  background-color: hsl(24, 1%, 65%);
+}
+
+.section-work .section-image.more-darken {
+  background-color: hsl(24, 1%, 57%);
+}
+
+.section-work .section-image.even-more-darken {
+  background-color: hsl(24, 1%, 51%);
+}
+
+.section-work .section-image:hover {
+  cursor: pointer;
+}
+
+.section-work .section-image:hover img{
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.section-work .section-bottom {
+  text-align: center;
+}
+
+.section-work .section-image-cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.section-work .section-image-cover > * {
+  font-size: 25px;
+  color: #09052f;
+}
+
+.section-work .section-image:hover .section-image-cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: hsla(0, 1%, 64%, 0.44);
+}
+/*-------------------------------------- Section 7 People Say -----------------------------------------------------------*/
+.section-people-say {
+  text-align: center;
+  padding: 70px 0;
+  min-height: 500px;
+}
+
+.section-people-say .section-foreground {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section-people-say .section-top .section-title {
+  opacity: 0.9;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.section-people-say .section-middle .section-description {
+  opacity: 0.85;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  margin-bottom: 56px;
+}
+
+.section-people-say .section-middle .section-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.7px;
+}
+
+.section-people-say .section-middle .section-subtitle {
+  opacity: 0.7;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 22px;
+}
+/*----------------------------------------------------- Section 8 Contact --------------------------------------------*/
+.section-contact {
+  padding: 35px 0 20px;
+}
+
+.section-contact .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -106px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-contact .wrapper > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding-left: 106px;
+}
+
+.section-contact .section-title {
+  color: #413d4b;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  margin: 35px 0;
+}
+
+.section-contact .input {
+  margin-bottom: 23px;
+}
+
+.section-contact .textarea {
+  margin-bottom: 21px;
+}
+
+.section-contact .button {
+  padding: 15px 32px;
+}
+
+.section-contact .section-right .grid {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.section-contact .section-right .grid > * {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  margin: 0 0 50px;
+}
+
+.section-contact .section-right .section-image img {
+  width: auto;
+}

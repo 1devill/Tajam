@@ -1,0 +1,85 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-weight: 300;
+  color: #333333;
+  line-height: 22px;
+  font-family: 'Roboto';
+}
+
+.container {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  width: 60%;
+  margin: 0 auto;
+  height: auto;
+}
+
+p, ul, ol, figure {
+  margin: 0 0 10px 0;
+}
+
+* + p, * + ul, * + ol , * + figure {
+  margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0.67em;
+}
+
+a, .link {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+a:hover, .link:hover {
+  color: #00e0d0;
+}
+
+img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+}
+
+.section-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo img {
+  display: block;
+}
+
+.logo-text {
+  color: #4aa3cc;
+  font-size: 30px;
+  margin-left: 11px;
+  font-weight: 200;
+}
+
+.logo-text:hover {
+  color: #fff;
+}
+
+/* Only for dis project */

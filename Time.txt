@@ -1,0 +1,13 @@
+Stylization - 2 hours
+HTML structure - 3 hours 30 min
+section-hero 1 - 40 min
+section-story 2 - 40 min
+section-video 3 - 40 min
+section-expertise 4 - 1 hour
+section-team 5 - 1 hour 40 min
+section-work 6 - 40 min
+section-people-say 7 - 30 min
+section-contact 8 - 1 hour
+footer -  2 hours
+
+Overall time approximately - ~15 hours
