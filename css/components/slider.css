@@ -1,0 +1,7 @@
+.glide__bullet--active{
+    background-color: #00e0d0 !important;
+}
+
+.glide__slides {
+    max-height: 670px;
+  }
