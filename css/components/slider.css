@@ -1,7 +1,12 @@
-.glide__bullet--active{
-    background-color: #00e0d0 !important;
+.section-hero .glide__bullet--active{
+    background-color: #00e0d0;
 }
 
-.glide__slides {
+.section-hero .glide__slides {
     max-height: 670px;
-  }
+}
+
+.section-hero .glide {
+    position: static;
+    cursor: auto;
+}
